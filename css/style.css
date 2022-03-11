@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(65, 170, 65);
+}
+
+label{
+    font-weight: bold;
+}
+
+.container{
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+    padding: 16px;
+    background-color: #FFF;
+    box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.7);
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    margin: 5px 0 22px 0;
+    background: whitesmoke;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus{
+    background-color: #999;
+    outline: none;
+}
+
+.registration{
+    background-color: rgb(65, 170, 65);
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.registration:hover{
+    opacity: 1;
+}
